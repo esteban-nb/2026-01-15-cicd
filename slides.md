@@ -279,7 +279,7 @@ https://github.com/ariostas-talks/2026-01-15-cicd
 
 ### Exercise 1
 
-Add a workflow that checks out the NumPy repository at version 2.4.0, then runs the `ruff` checker and formater (either from a pip install or with the GitHub action), and then prints the diff of the changes (if any).
+Add a workflow that checks out the NumPy repository at version 2.4.0, then runs the `ruff` formater (either from a pip install or with the GitHub action), and then prints the diff of the changes (if any).
 
 (In practice, it is more common to use pre-commit for this, but that's a topic for another day)
 
